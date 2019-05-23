@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通过<item> 标签来定义action 按钮-->
+<!--Toolbar中的action按钮只会显示图标， 菜单中的action按钮只会显示文字-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Backup"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+    <!--showAsAction设置为never的，点右边的展开，才能看到哦~-->
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+</menu>
