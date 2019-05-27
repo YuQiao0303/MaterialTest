@@ -1,0 +1,6 @@
+<resources>
+    <!--针对Android 5.0及之后的系统-->
+    <style name="FruitActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

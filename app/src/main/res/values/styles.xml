@@ -9,4 +9,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--针对Android 5.0之前的系统-->
+    <style name="FruitActivityTheme" parent="AppTheme">
+    </style>
 </resources>
